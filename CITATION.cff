@@ -1,11 +1,17 @@
 cff-version: 1.2.0
-title: EBMA — Explainable Behavioral Membership Audiences
-message: If you use this software, please cite it.
+title: "Beyond Clustering: Dataset-Adaptive Discovery of Explainable Behavioral Audiences"
+message: If you use this software, please cite the companion manuscript and this repository.
 type: software
 authors:
-  - family-names: Calisir
+  - family-names: Çalışır
     given-names: Emre
+    affiliation: Galatasaray University; Pivony
+    email: emre.calisir@ogr.gsu.edu.tr
+  - family-names: Işıklar Alptekin
+    given-names: Gülfem
     affiliation: Galatasaray University
+    email: gisiklar@gsu.edu.tr
+repository-code: https://github.com/emrecalisir/ebma
 license: MIT
 version: 0.1.0
 date-released: "2026-09-21"
