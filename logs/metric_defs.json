@@ -1,0 +1,16 @@
+{
+  "Fid": "exact freeze replay of AST+theta under SymbolicArbiter; expect ~1.0 for symbolic arms",
+  "FRS_k": "fraction of eval customers with identical membership bits across k successive non-vacuous edits (add/drop/threshold); vacuous |Δmem|<0.001 retried",
+  "mean_abs_delta_frac": "mean absolute membership change fraction per edit",
+  "jaccard_to_rfm": "max Jaccard of m_A vs any RFM quintile or propensity-band mask",
+  "novelty": "1 - jaccard_to_rfm",
+  "portfolio_novelty": "mean novelty over audiences in P",
+  "redundancy": "mean pairwise Jaccard within P",
+  "coverage": "share of eval users in at least one discovered audience",
+  "NDCG": "N/A — audience bits are not an item ranking score",
+  "llm_wrote_membership": false,
+  "code_paths": {
+    "A1": "a1_typed_beam_portfolio",
+    "BeamSD": "beam_sd_wracc_no_portfolio"
+  }
+}

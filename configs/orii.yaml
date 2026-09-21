@@ -1,0 +1,7 @@
+dataset: online-retail-ii
+role: primary
+license: CC BY 4.0
+doi: https://doi.org/10.24432/C5CG6D
+holdout_days: 90
+arms: [A0, A1, A2, A4, A5]
+baselines: [RFM, propensity, BeamSD, ExKMC, Shi, LACE]

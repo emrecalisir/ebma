@@ -1,0 +1,6 @@
+dataset,role,url_or_doi,filename,bytes,sha256,access_date,license_note
+online-retail-ii,primary,https://doi.org/10.24432/C5CG6D,online-retail-ii.zip,45622418,572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb,2026-09-21,CC BY 4.0; source=https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip
+online-retail-ii,primary,https://doi.org/10.24432/C5CG6D,online_retail_II.xlsx,45622278,bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980,2026-09-21,CC BY 4.0; source=https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip
+complete-journey,stress,https://www.dunnhumby.com/source-files/,completejourney-master.zip,41034858,c440d26ed31122565abacacf2fb159cc791f31f79da5a31745d76be1ea7f0d7d,2026-09-21,portal+CRAN completejourney terms; source=https://github.com/bradleyboehmke/completejourney/archive/refs/heads/master.zip
+complete-journey,stress,https://www.dunnhumby.com/source-files/,transactions.rds,12775661,1fa0700033f1e5d9bb6b09e2be063d8d68474d346e95c50f2833e09d083e0007,2026-09-21,portal+CRAN completejourney terms
+complete-journey,stress,https://www.dunnhumby.com/source-files/,products.rda,869019,a80c6df33623b4af296ae9f317a6647e369db7e8ce7e7baed0e1bf44b9d979e5,2026-09-21,portal+CRAN completejourney terms

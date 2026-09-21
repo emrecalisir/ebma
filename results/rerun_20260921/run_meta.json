@@ -1,0 +1,24 @@
+[
+  {
+    "dataset": "online-retail-ii",
+    "n_events": 824364,
+    "n_customers": 5942,
+    "n_disc_events": 659661,
+    "n_eval_events": 164703,
+    "split_cut": "2011-09-10 12:50:00",
+    "catalogue_n_atoms": 552,
+    "llm_wrote_membership": false,
+    "ndcg": "N/A"
+  },
+  {
+    "dataset": "complete-journey",
+    "n_events": 1469307,
+    "n_customers": 2469,
+    "n_disc_events": 1105254,
+    "n_eval_events": 364053,
+    "split_cut": "2017-10-03 04:01:20",
+    "catalogue_n_atoms": 252,
+    "llm_wrote_membership": false,
+    "ndcg": "N/A"
+  }
+]

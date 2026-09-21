@@ -1,0 +1,6 @@
+dataset: complete-journey
+role: stress
+license: dunnhumby portal + CRAN completejourney redistribution terms
+holdout_days: 90
+arms: [A0, A1]
+baselines: [RFM, propensity, BeamSD, ExKMC, LACE]

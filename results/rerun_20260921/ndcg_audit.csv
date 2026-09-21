@@ -1,0 +1,19 @@
+dataset,method,metric,ours,reported,reason,layer
+online-retail-ii,A1_typed_beam,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,A0_propose_verify,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,A2_freetext,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,A4_random,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,A5_rfm_fixed,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,RFM_quintile,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,propensity_logistic_RFM,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,BeamSD_WRAcc,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,ExKMC_IMM_paths,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,Shi_persona_foil,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+online-retail-ii,LACE_CtrlCE_foil,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,A1_typed_beam,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,A0_propose_verify,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,RFM_quintile,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,propensity_logistic_RFM,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,BeamSD_WRAcc,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,ExKMC_IMM_paths,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity
+complete-journey,LACE_CtrlCE_foil,NDCG@K,N/A,N/A,Audience membership bits are not an item/session ranking score. No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.,sanity

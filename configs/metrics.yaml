@@ -1,0 +1,28 @@
+# Dual-metric protocol (handoff 28 §3)
+v_version: V1.schema_local.2026-09-21
+n_min: 30
+k_portfolio: 8
+lambda_red: 0.4
+seed: 42
+holdout_days: 90
+frs_k: [1, 3, 5]
+edit_types: [add, drop, threshold]
+vacuous_delta_frac: 0.001
+tau_nov: 0.15
+ndcg_mode: not_applicable
+ndcg_reason: >-
+  Audience membership bits are not an item/session ranking score.
+  No next-basket ranking task is wired on this grain; Layer-1 NDCG is N/A.
+llm_wrote_membership: false
+novelty:
+  definition: 1 - max Jaccard to RFM quintile or propensity-band membership
+  portfolio: mean over audiences
+  also_report: [redundancy_pairwise_jaccard, coverage]
+frs:
+  definition: fraction of eval customers with identical bits across k successive non-vacuous edits
+  also_report: mean_abs_delta_mem_frac
+fid:
+  definition: exact freeze replay of AST+theta under SymbolicArbiter
+code_paths:
+  A1: a1_typed_beam_portfolio
+  BeamSD: beam_sd_wracc_no_portfolio
